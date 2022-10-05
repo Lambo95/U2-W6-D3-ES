@@ -22,6 +22,7 @@ nav {
 }
 
 .container {
+  margin: 4rem;
   height: 50vh;
   display: flex;
   justify-content: space-around;
@@ -47,4 +48,14 @@ button {
   background-image: url(https://picsum.photos/200/300);
   background-repeat: no-repeat;
   background-size: contain;
+  background-position: center;
+  background-color: white;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    margin: 0.5rem;
+    display: flex;
+    flex-direction: column;
+  }
 }
