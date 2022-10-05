@@ -1,14 +1,8 @@
-let navTag = document.getElementsByTagName("nav");
+let navTag = document.getElementsByTagName("nav")[0];
 let imgId = document.getElementById("img-id");
 
 function cambioColore() {
-  navTag.style.backgroundColor = "green";
-  if (navTag.style.backgroundColor === "green") {
-    navTag.style.backgroundColor = "red";
-  }
-  if (navTag.style.backgroundColor === "red") {
-    navTag.style.backgroundColor = "blue";
-  }
+  navTag.style.backgroundColor = "red";
 }
 
 function cambioImg() {

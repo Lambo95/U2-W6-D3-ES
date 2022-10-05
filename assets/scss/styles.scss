@@ -1,4 +1,4 @@
-// @import "_button.scss";
+@import "_button.scss";
 
 body {
   margin: 0;
@@ -38,7 +38,7 @@ nav {
 button {
   font-size: 1rem;
   font-weight: bold;
-  //   color: $button-color;
+  color: $button-color;
   text-align: center;
 }
 
