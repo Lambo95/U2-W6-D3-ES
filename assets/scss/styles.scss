@@ -1,0 +1,50 @@
+// @import "_button.scss";
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  width: 100vw;
+  height: 5rem;
+  background-color: blue;
+  display: flex;
+  gap: 1rem;
+  justify-content: end;
+  align-items: center;
+  a {
+    padding: 1rem;
+    text-decoration: none;
+    color: white;
+  }
+}
+
+.container {
+  height: 50vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.btn {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+button {
+  font-size: 1rem;
+  font-weight: bold;
+  //   color: $button-color;
+  text-align: center;
+}
+
+.img {
+  height: 80%;
+  width: 50%;
+  background-image: url(https://picsum.photos/200/300);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
